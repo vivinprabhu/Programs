@@ -15,6 +15,7 @@ class Main
         System.out.println(Integer.toString(a)); //15 (int to string)
 
         System.out.println(Integer.toString(a , 16)); //output:f  integer to hexa-decimal form (16 is radix) 
+        System.out.println(Integer.parseInt("f" , 16)); //output:15 hexa-decimal to integer form (16 is radix)
         System.out.println(Integer.toBinaryString(a)); //1111 (Binary Form)
 
         System.out.println(Integer.compare(a,a)); //0 (a<b)
